@@ -36,6 +36,7 @@ fi
 
 cp -R $CACHE_DIR/libreoffice-${VERSION}/usr $INSTALL_DIR
 cp -R $CACHE_DIR/libreoffice-${VERSION}/opt $INSTALL_DIR
+rm -rf /tmp/codon/tmp/cache
 
 PROFILE_PATH="$BUILD_DIR/.profile.d/libreoffice.sh"
 RUNTIME_INSTALL_PATH="\$HOME/vendor/libreoffice"
