@@ -40,7 +40,7 @@ rm -rf /tmp/codon/tmp/cache
 rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.wav
 rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.svg
 rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.png
-rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.zip
+rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/*.zip
 
 PROFILE_PATH="$BUILD_DIR/.profile.d/libreoffice.sh"
 RUNTIME_INSTALL_PATH="\$HOME/vendor/libreoffice"
