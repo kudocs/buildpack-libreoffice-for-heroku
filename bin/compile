@@ -37,10 +37,10 @@ fi
 cp -R $CACHE_DIR/libreoffice-${VERSION}/usr $INSTALL_DIR
 cp -R $CACHE_DIR/libreoffice-${VERSION}/opt $INSTALL_DIR
 rm -rf /tmp/codon/tmp/cache
-rm -rf $INSTALL_DIR/opt/libreoffice24.2/share/gallery/sounds/*.wav
-rm -rf $INSTALL_DIR/opt/libreoffice24.2/share/theme_definitions/ios/*.svg
-rm -rf $INSTALL_DIR/opt/libreoffice24.2/share/tipoftheday/*.png
-rm -rf $INSTALL_DIR/opt/libreoffice24.2/share/config/images_*.zip
+rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.wav
+rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.svg
+rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.png
+rm -rf $INSTALL_DIR/opt/libreoffice24.2/**/**/**/**/*.zip
 
 PROFILE_PATH="$BUILD_DIR/.profile.d/libreoffice.sh"
 RUNTIME_INSTALL_PATH="\$HOME/vendor/libreoffice"
